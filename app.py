@@ -16,7 +16,18 @@ Run locally:
 
 from __future__ import annotations
 
+import os
+import sys
 from typing import Dict, List, Optional
+
+# Defensive fix: make sure the directory containing this file (the repo
+# root, where the `src` package lives) is on sys.path. Most local/Streamlit
+# Cloud setups already have this, but some deployment configurations run
+# the script from a different working directory, which otherwise causes
+# "ModuleNotFoundError: No module named 'src'".
+_APP_DIR = os.path.dirname(os.path.abspath(__file__))
+if _APP_DIR not in sys.path:
+    sys.path.insert(0, _APP_DIR)
 
 import streamlit as st
 
