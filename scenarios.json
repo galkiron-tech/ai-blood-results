@@ -1,0 +1,110 @@
+[
+  {
+    "id": "scenario_01",
+    "name": "דנה (דמות סינתטית)",
+    "age": 34,
+    "sex": "female",
+    "context": "בדיקת דם שגרתית במסגרת בדיקה תקופתית, ללא תסמינים מיוחדים.",
+    "notes": "כל הבדיקות שבוצעו נמצאות בטווח התקין באב-הטיפוס.",
+    "values": {"wbc": 6.2, "hemoglobin": 13.2, "ferritin": 55, "hba1c": 5.2, "ldl": 95, "hdl": 62, "triglycerides": 90, "crp": 1.1}
+  },
+  {
+    "id": "scenario_02",
+    "name": "יובל (דמות סינתטית)",
+    "age": 47,
+    "sex": "male",
+    "context": "בדיקת מעקב שגרתית, ללא תסמינים.",
+    "notes": "ערך LDL גבולי, שאר הערכים תקינים.",
+    "values": {"wbc": 5.8, "hemoglobin": 14.5, "ferritin": 110, "hba1c": 5.3, "ldl": 142, "hdl": 48, "triglycerides": 120, "crp": 0.9}
+  },
+  {
+    "id": "scenario_03",
+    "name": "אבי (דמות סינתטית)",
+    "age": 55,
+    "sex": "male",
+    "context": "בדיקה תקופתית עם היסטוריה משפחתית של מחלות לב.",
+    "notes": "ערך LDL גבוה, מומלץ לדון בהקשר הכולל של גורמי הסיכון.",
+    "values": {"wbc": 6.5, "hemoglobin": 15.0, "ferritin": 130, "hba1c": 5.6, "ldl": 178, "hdl": 39, "triglycerides": 165, "crp": 1.8}
+  },
+  {
+    "id": "scenario_04",
+    "name": "מיכל (דמות סינתטית)",
+    "age": 41,
+    "sex": "female",
+    "context": "בדיקת מעקב שנתית, ללא תסמינים משמעותיים.",
+    "notes": "ערך HbA1c גבולי, מומלץ מעקב.",
+    "values": {"wbc": 7.0, "hemoglobin": 12.8, "ferritin": 60, "hba1c": 6.0, "ldl": 110, "hdl": 55, "triglycerides": 105, "crp": 1.0}
+  },
+  {
+    "id": "scenario_05",
+    "name": "רון (דמות סינתטית)",
+    "age": 60,
+    "sex": "male",
+    "context": "מטופל עם עודף משקל, בדיקת מעקב מטבולי.",
+    "notes": "ערך HbA1c בטווח שמעיד על צורך בהערכה נוספת.",
+    "values": {"wbc": 6.9, "hemoglobin": 14.9, "ferritin": 145, "hba1c": 6.7, "ldl": 132, "hdl": 41, "triglycerides": 190, "crp": 2.4}
+  },
+  {
+    "id": "scenario_06",
+    "name": "נועה (דמות סינתטית)",
+    "age": 29,
+    "sex": "female",
+    "context": "מטופלת בעלת הרגלי תזונה צמחוניים, ללא תסמינים בולטים.",
+    "notes": "ערך פריטין נמוך במידה קלה, המוגלובין תקין.",
+    "values": {"wbc": 5.9, "hemoglobin": 12.6, "ferritin": 13, "hba1c": 5.1, "ldl": 88, "hdl": 58, "triglycerides": 75, "crp": 0.8}
+  },
+  {
+    "id": "scenario_07",
+    "name": "שירה (דמות סינתטית)",
+    "age": 25,
+    "sex": "female",
+    "context": "מטופלת המדווחת על עייפות כללית בחודשים האחרונים.",
+    "notes": "ערך פריטין נמוך באופן ברור, המוגלובין בטווח התקין.",
+    "values": {"wbc": 6.0, "hemoglobin": 12.3, "ferritin": 6, "hba1c": 5.0, "ldl": 92, "hdl": 60, "triglycerides": 80, "crp": 1.0}
+  },
+  {
+    "id": "scenario_08",
+    "name": "טל (דמות סינתטית)",
+    "age": 32,
+    "sex": "female",
+    "context": "מטופלת המדווחת על עייפות וחולשה מתמשכת.",
+    "notes": "שילוב של המוגלובין נמוך ופריטין נמוך - דפוס שכדאי לדון בו יחד עם הרופא/ה.",
+    "values": {"wbc": 6.1, "hemoglobin": 10.2, "ferritin": 7, "hba1c": 5.2, "ldl": 85, "hdl": 57, "triglycerides": 70, "crp": 1.3}
+  },
+  {
+    "id": "scenario_09",
+    "name": "עומר (דמות סינתטית)",
+    "age": 22,
+    "sex": "male",
+    "context": "מטופל שהחלים לאחרונה ממחלה ויראלית קלה (כשבוע לפני הבדיקה).",
+    "notes": "עלייה קלה ב-WBC, סביר שקשורה למחלה האחרונה.",
+    "values": {"wbc": 10.6, "hemoglobin": 15.2, "ferritin": 95, "hba1c": 5.0, "ldl": 90, "hdl": 50, "triglycerides": 95, "crp": 2.0}
+  },
+  {
+    "id": "scenario_10",
+    "name": "ליאור (דמות סינתטית)",
+    "age": 38,
+    "sex": "male",
+    "context": "מטופל המדווח על חום קל ותחושת חולי בימים האחרונים.",
+    "notes": "שילוב של WBC גבוה ו-CRP גבוה, מתאים לתהליך דלקתי פעיל שכדאי לברר.",
+    "values": {"wbc": 13.2, "hemoglobin": 14.6, "ferritin": 100, "hba1c": 5.3, "ldl": 100, "hdl": 46, "triglycerides": 110, "crp": 18.5}
+  },
+  {
+    "id": "scenario_11",
+    "name": "הילה (דמות סינתטית)",
+    "age": 45,
+    "sex": "female",
+    "context": "בדיקת מעקב שגרתית, ללא תסמינים מיוחדים כרגע.",
+    "notes": "ערך CRP גבוה במידה בולטת, ללא הסבר ברור מהקשר הבדיקה בלבד.",
+    "values": {"wbc": 7.4, "hemoglobin": 13.0, "ferritin": 80, "hba1c": 5.4, "ldl": 115, "hdl": 52, "triglycerides": 100, "crp": 22.0}
+  },
+  {
+    "id": "scenario_12",
+    "name": "איתן (דמות סינתטית)",
+    "age": 52,
+    "sex": "male",
+    "context": "בדיקה תקופתית, ללא תסמינים בולטים.",
+    "notes": "מספר ממצאים גבוליים בו-זמנית (LDL, טריגליצרידים, HbA1c) - מומלץ לדון בתמונה הכוללת.",
+    "values": {"wbc": 6.3, "hemoglobin": 14.1, "ferritin": 120, "hba1c": 6.1, "ldl": 145, "hdl": 42, "triglycerides": 180, "crp": 2.6}
+  }
+]
